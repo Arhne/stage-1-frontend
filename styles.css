@@ -109,7 +109,9 @@ svg {
     box-shadow: -.2em .2em 2em 1em var(--clr-primary-50);
 }
 
-
+.margin-auto{
+    margin: auto;
+}
 .img-wrapper {
   
     max-height: 250px;
@@ -162,40 +164,6 @@ p[data-width="wide"] {
 display: grid;
 grid-template-columns: auto auto;
 justify-content: space-between;
-}
-
-.even-column::after{
-content: "";
-background: var(--clr-primary-200);
-display: block;
-width: 100%;
-height: .9px;
-
-grid-column: 1/3;
-
-margin-block: var(--size-25);
-}
-
-
-
-.timeframe{
-    margin-block: .3rem;
-}
-
-svg{
-    display: inline-block;
-}
-
-.creator{
-    display: inline-flex;
-    gap: var(--size-25);
-}
-
-.creators-img{
-    width: var(--size-80);
-    border-radius: 100vw;
-    border: 2px solid var(--clr-neutral-400);
-    
 }
 
 
