@@ -110,7 +110,9 @@ svg {
 }
 
 .margin-auto{
-    margin: auto;
+    margin-inline: auto;
+    padding: var(--size-50);
+    border-radius: var(--size-25);
 }
 .img-wrapper {
   
